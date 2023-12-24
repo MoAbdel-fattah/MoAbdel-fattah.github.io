@@ -26,10 +26,8 @@ description: >- # used by seo meta and the atom feed
 url: "https://moabdel-fattah.github.io/"
 
 github:
-  username: github_username # change to your github username
+  username: MoAbdel-fattah # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -39,10 +37,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/MoAbdel-fattah # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+     https://www.linkedin.com/in/mohammad-abd-el-fattah-mohammad-ahmad-10638b228
 
 google_site_verification: # fill in to your verification string
 
