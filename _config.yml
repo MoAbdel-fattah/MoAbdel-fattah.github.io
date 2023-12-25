@@ -16,17 +16,17 @@ timezone:
 
 title: Mohammad Abd El-Fattah # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: A Computer Science Student’s Journey of Learning and Discovery # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Welcome to my blog, where I share my passion for computer science and explore topics beyond programming, mobile app development, and software engineering. As a computer science student, I am curious about the diverse applications, implications, and challenges of computing in various domains, such as art, education, health, and social justice. In this blog, you will find my thoughts, opinions, and insights on these and other related issues, as well as some of my personal projects and experiences..
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://moabdel-fattah.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: MoAbdel-fattah # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -34,15 +34,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Mohammad Abd El-Fattah Mohammad
+  email: mohamed-abdelfattah-seleim@hotmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/MoAbdel-fattah # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+     - https://www.linkedin.com/in/mohammad-abd-el-fattah-mohammad-ahmad-10638b228
 
 google_site_verification: # fill in to your verification string
 
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/D4D03AQGY3yfmc--b9A/profile-displayphoto-shrink_800_800/0/1700145848259?e=1709164800&v=beta&t=0LBti948m-mUFoGzWn56B9eZSRGTNPI0lpUSuTb39ZA
 
 # boolean type, the global switch for TOC in posts.
 toc: true
