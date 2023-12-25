@@ -16,7 +16,7 @@ timezone: Africa/Cairo
 
 title: Mohammad Abd El-Fattah # the main title
 
-tagline: Sophomore Computer Science Student | Mobile app Developer # it will display as the sub-title
+tagline: Sophomore Computer Science Student|Mobile app Developer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Welcome to my blog, where I share my passion for computer science and explore topics beyond programming, mobile app development, and software engineering. As a computer science student, I am curious about the diverse applications, implications, and challenges of computing in various domains, such as art, education, health, and social justice. In this blog, you will find my thoughts, opinions, and insights on these and other related issues, as well as some of my personal projects and experiences..
