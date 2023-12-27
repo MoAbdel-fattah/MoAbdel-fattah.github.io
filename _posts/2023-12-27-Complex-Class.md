@@ -1,6 +1,6 @@
 ---
-title: Complex Class
-date: 2023-12-27 4:00:00 -500
+title: "Complex Class"
+date: 2023-12-27 00:00:00 +0000
 categories: [C++,OOP]
 tags: [c++ ,oop]
 ---
