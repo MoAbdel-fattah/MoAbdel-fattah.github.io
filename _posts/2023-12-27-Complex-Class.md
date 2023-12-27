@@ -1,7 +1,6 @@
 ---
-layout: "post"
 title: Complex Class
-date: 2023-12-27 00:00:00 +0000
+date: 2023-12-27 10:05:00 +0000
 categories: [C++,OOP]
 tags: [c++ , oop]
 ---
