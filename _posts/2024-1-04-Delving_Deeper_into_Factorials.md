@@ -37,7 +37,7 @@ Example: 5! = 5 * 4 * 3 * 2 * 1 = 120.
 Factorials are essential in probability, statistics, combinatorics, and various mathematical fields.
 Recursive Factorial Function:
 
-```C++
+```c++
 int fac(int num) {
     if (num == 1) { // Base case
         return 1;
@@ -54,7 +54,7 @@ Recursive Call: For num > 1, the function calls itself with num - 1, multiplying
 Chain of Executions: This creates a chain of recursive calls until the base case is reached, then values are returned and multiplied in reverse order.
 Iterative Factorial Function:
 
-```C++
+```c++
 int Factorial(int n) {
     int i, product = 1;
     for (i = n; i > 1; --i) {
