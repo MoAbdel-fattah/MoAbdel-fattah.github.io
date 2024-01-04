@@ -29,11 +29,11 @@ int fibo(int n) {
 1. Base Cases: When n == 0 or n == 1, the function returns the respective value, ending recursion.
 2. Recursive Calls: For n > 1, the function calls itself twice, with n - 1 and n - 2, adding their results to form the Fibonacci number.
 3. Tree of Executions: This creates a tree-like structure of calls, with each branch calculating smaller Fibonacci numbers until reaching base cases.
-## Efficiency Considerations:
 
+## Efficiency Considerations:
 - Time Complexity: Recursive Fibonacci has exponential time complexity, O(2^n), as it makes many redundant calculations.
 - Space Complexity: It also has linear space complexity, O(n), due to the recursive call stack.
-## Optimization Techniques:
 
+## Optimization Techniques:
 - Memoization: Store previously calculated Fibonacci numbers to avoid redundant computations.
 - Iterative Approach: Use a loop to calculate Fibonacci numbers sequentially, improving efficiency.
