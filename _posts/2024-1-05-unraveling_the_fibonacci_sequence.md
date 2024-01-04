@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unraveling the Fibonacci Sequence
-date: 2024-1-05 00:51 +0000
+date: 2024-1-05 00:51 +0200
 categories: [C++,Data Structure]
 tags: [c++,data structure]
 ---
