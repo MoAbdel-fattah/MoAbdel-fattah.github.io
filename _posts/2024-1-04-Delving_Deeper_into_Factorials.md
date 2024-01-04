@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Delving Deeper into Factorials
-date: 2024-1-04 10:00 +0000
+date: 2024-1-04 00:00 +0000
 categories: [C++,Data Structure]
 tags: [c++,data structure]
 ---
