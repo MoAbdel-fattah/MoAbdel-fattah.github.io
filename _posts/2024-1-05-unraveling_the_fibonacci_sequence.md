@@ -5,7 +5,6 @@ date: 2024-1-05 00:51 +0200
 categories: [C++,Data Structure]
 tags: [c++,data structure]
 ---
-# Introduction
 ### Fibonacci Sequence: A Refresher
 
 - This sequence begins with 0 and 1, and each subsequent number is the sum of the two preceding ones.
