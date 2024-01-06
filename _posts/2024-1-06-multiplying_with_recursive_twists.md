@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multiplying with Recursive Twists
-date: 2024-1-06 00:00 +0000
+date: 2024-1-06 18:00 +0200
 categories: [C++,Data Structure]
 tags: [c++,data structure]
 ---
