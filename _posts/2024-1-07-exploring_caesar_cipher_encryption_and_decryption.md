@@ -5,6 +5,7 @@ date: 2024-1-07 00:00 +0000
 categories: [Python,Cypersecurity]
 tags: [python,cypersecurity,cryptography]
 ---
+
 ### Caesar Cipher: A Shifty Affair
 - It's a substitution cipher that involves shifting each letter in the plaintext by a fixed number of positions down the alphabet.
 - The key determines the shift amount, adding a layer of secrecy to the message.
