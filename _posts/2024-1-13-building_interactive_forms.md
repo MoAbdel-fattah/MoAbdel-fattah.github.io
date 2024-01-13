@@ -8,10 +8,14 @@ tags: [php]
 ## Anatomy of a Registration Form:
 
 ### Let's dive into the key players that bring a registration form to life:
-- The Conductor: < form > Element: This element sets the foundation, defining how and where to send collected information. Its method and action attributes act as backstage crew, ensuring smooth data delivery.
-- The Guides: < label > Elements: These elements offer clear instructions for each input field, ensuring a user-friendly experience.
-- The Actors: < input > Elements: These versatile elements capture different types of data, from text and emails to passwords and preferences.
-- The Final Cue: < button > Element: This element triggers the data transmission, sending the user's input on its journey.
+- The Conductor: < form > Element: 
+- - This element sets the foundation, defining how and where to send collected information. Its method and action attributes act as backstage crew, ensuring smooth data delivery.
+- The Guides: < label > Elements: 
+- - These elements offer clear instructions for each input field, ensuring a user-friendly experience.
+- The Actors: < input > Elements: 
+- - These versatile elements capture different types of data, from text and emails to passwords and preferences.
+- The Final Cue: < button > Element: 
+- - This element triggers the data transmission, sending the user's input on its journey.
 
 ### Behind the Scenes: Data Submission:
 - Once the user clicks "Register," the form's method guides the data to the specified action point, usually a server-side script like process.php. This script then validates the information, stores it, and potentially triggers follow-up actions like welcome emails or account activation.
