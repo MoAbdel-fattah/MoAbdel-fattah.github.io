@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-Computer science major and artificial intelligence minor student at Thebes Academy, with a passion for Mobile applcation development.
+Computer science major student at Thebes Academy, with a passion for Mobile applcation development.
 
 Completed several internships at Cisco Networking Academy, AMIT Learning, and Orange Digital Center Egypt, where I developed and implemented mobile applications using data structures, systems analysis and design, design patterns, REST APIs, Firebase, Pods, and CocoaPods.
 
