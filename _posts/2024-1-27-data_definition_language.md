@@ -7,13 +7,15 @@ tags: [sql,database]
 ---
 
 # DDL : Data Definition Language
+
 ## DDL Processes :
+
 ### 1- Create :  
-#### - Database
+- Database
 ```sql
 create database database_name;
 ```
-#### - Table
+- Table
 ```sql
 create table table_name (
 column1 datatype,
@@ -46,18 +48,18 @@ drop table database_name;
 - Change specfic property on Database
 
 ## Column Data Types :
-### 1-String
-- char : for Fixed length
-- varchar : for dynamic size 
-- text : for more size
-- enum : for specific value
-- set  : for selection value 
-### 2-Numeric
-- int : store number
-- float : store decimal number
-### 3-Date/Time
-- date
-- time
-- datetime
-- timestamp
-- year
+- String
+  - char : for Fixed length
+  - varchar : for dynamic size 
+  - text : for more size
+  - enum : for specific value
+  - set  : for selection value 
+- Numeric
+  - int : store number
+  - float : store decimal number
+- Date/Time
+  - date
+  - time
+  - datetime
+  - timestamp
+  - year
