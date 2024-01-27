@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Data Definition Language
-date: 2024-1-27 00:00 +0000
+date: 2024-1-27 10:16 +0200
 categories: [SQL]
 tags: [sql,database]
 ---
+
 # DDL : Data Definition Language
 ## DDL Processes :
 ### 1- Create :  
