@@ -3,7 +3,7 @@ layout: post
 title: Data Definition Language
 date: 2024-1-27 10:30 +0200
 categories: [SQL]
-tags: [sql]
+tags: [sql,database]
 ---
 
 # DDL : Data Definition Language
