@@ -5,11 +5,8 @@ date: 2024-1-27 10:30 +0200
 categories: [SQL]
 tags: [sql,database]
 ---
-
 # DDL : Data Definition Language
-
 ## DDL Processes :
-
 ### 1- Create :  
 - Database
 ```sql
