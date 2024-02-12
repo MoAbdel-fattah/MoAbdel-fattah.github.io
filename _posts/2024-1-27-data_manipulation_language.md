@@ -5,7 +5,6 @@ date: 2024-1-27 19:39 +0200
 categories: [SQL]
 tags: [sql,database]
 ---
-# DML : Data Manipulation Language
 ## DML Process:
 ### 1- Insert
 ```sql
