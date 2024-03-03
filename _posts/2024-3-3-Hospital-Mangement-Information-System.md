@@ -27,7 +27,7 @@ Overall, this database model provides a solid foundation for an efficient hospit
 
 #### In Switch apper Four of condition that check user role to get in has page, and i use 4 function to set this condition lets explain this functions :  
 ##### HR Check Role Function
-![Desktop View](/assets/img/posts/Hr.png)
+![Desktop View](/assets/img/posts/HR.png)
  - I write in Javascript object:
  ```javasript
  $parameters.IsHR = $public.Security.checkIfCurrentUserHasRole($roles.HR);
