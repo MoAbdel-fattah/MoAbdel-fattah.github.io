@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hospital Mangement Information System
-date: 2024-3-3 00:00 +0000
+date: 2024-3-3 12:00 +0200
 categories: [Outsystems]
 tags: [database,sql]
 ---
