@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Hospital Mangement Information System
-date: 2024-3-3 12:25 +0200
+date: 2024-3-3 12:30 +0200
 categories: [Outsystems]
-tags: [outsystems,database,sql]
+tags: [outsystems]
 ---
 ## Building the Foundation for Efficiency: Unveiling the Database Model of My Hospital Management System:
 - This model ensures the efficient storage and retrieval of critical data, like appointments, users, and their statuses. Let's delve deeper and explore how this model lays the groundwork for a more efficient hospital experience!
