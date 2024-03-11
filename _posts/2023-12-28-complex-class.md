@@ -3,7 +3,7 @@ layout: post
 title: Complex Class
 date: 2023-12-28 00:00 +0000
 categories: [C++,OOP]
-tags: [c++,oop,]
+tags: [c++,oop]
 ---
 # Introduction
 In this  post, I will explain the basic concepts of Object-Oriented Programming (OOP) in C++ using a simple example of a class that represents complex numbsers. OOP is a programming paradigm that uses objects to model real-world problems. Objects are instances of classes that contain both data and functions.
