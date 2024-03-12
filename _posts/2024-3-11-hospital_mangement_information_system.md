@@ -8,7 +8,7 @@ tags: [outsystems]
 ## Building the Foundation for Efficiency: Unveiling the Database Model of My Hospital Management System:
 - This model ensures the efficient storage and retrieval of critical data, like appointments, users, and their statuses. Let's delve deeper and explore how this model lays the groundwork for a more efficient hospital experience!
 
-![Desktop View](/assets/img/posts/HMISDataModel.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/HMISDataModel.png)
  
 ### This database model lays the groundwork for a more efficient hospital experience in a few ways:
 
@@ -23,11 +23,11 @@ tags: [outsystems]
 Overall, this database model provides a solid foundation for an efficient hospital management system. By  organizing data effectively, reducing redundancy,  standardizing data, and  facilitating relationships between data, the model helps streamline  administrative tasks and frees up  staff time to focus on what matters most – patient care.
 
 - This Flowchart is describe the login client action that happen when the user click on login button 
-![Desktop View](/assets/img/posts/Login.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/Login.png)
 
 #### In Switch apper Four of condition that check user role to get in has page, and i use 4 function to set this condition lets explain this functions :  
 ##### HR Check Role Function
-![Desktop View](/assets/img/posts/HR.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/HR.png)
  - I write in Javascript object:
  ```javasript
  $parameters.IsHR = $public.Security.checkIfCurrentUserHasRole($roles.HR);
@@ -55,7 +55,7 @@ This function appears to check the current user's role within a security framewo
 - This variable can then be used to control subsequent actions or visibility of features within the application. 
 
 ##### Doctor Check Role Function
-![Desktop View](/assets/img/posts/Staff.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/Staff.png)
  - I write in Javascript object:
  ```javasript
 $parameters.IsStaff =  $public.Security.checkIfCurrentUserHasRole($roles.Staff)
@@ -83,7 +83,7 @@ This function appears to check the current user's role within a security framewo
 - This variable can then be used to control subsequent actions or visibility of features within the application.
 
 ##### Doctor Check Role Function
-![Desktop View](/assets/img/posts/Doctor.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/Doctor.png)
  - I write in Javascript object:
  ```javasript
 $parameters.IsDr = $public.Security.checkIfCurrentUserHasRole($roles.Doctor)
@@ -111,7 +111,7 @@ This function appears to check the current user's role within a security framewo
 - This variable can then be used to control subsequent actions or visibility of features within the application.
 
 ##### Patient Check Role Function
-![Desktop View](/assets/img/posts/Patient.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/Patient.png)
  - I write in Javascript object:
  ```javasript
 $parameters.IsPA = $public.Security.checkIfCurrentUserHasRole($roles.Patient)
@@ -139,7 +139,7 @@ This function appears to check the current user's role within a security framewo
 - This variable can then be used to control subsequent actions or visibility of features within the application.
 ## Explation of UI
 ##### Human Resoures DashBoard
-![Desktop View](/assets/img/posts/Hrboard.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/Hrboard.png)
 
 - HR Portal: The process begins within the "HR Portal." This suggests that HR personnel have exclusive access to initiate account creation for doctors and staff.
 
@@ -152,7 +152,7 @@ This function appears to check the current user's role within a security framewo
 - Account Creation: In both scenarios (doctor or staff), there's likely an option to create a new account. This could involve filling out additional details or assigning access permissions relevant to the chosen role (doctor or staff).
 
 ##### Staff DashBoard
-![Desktop View](/assets/img/posts/Staffboard.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/Staffboard.png)
 
 - Staff Portal: The process starts within the "Staff Portal," indicating that staff members have access to view and manage patient information, appointments, and potentially create new patient accounts.
 
@@ -166,11 +166,11 @@ This function appears to check the current user's role within a security framewo
 - - Assign Doctor: Select a doctor from a list to assign them to the checkup. This functionality allows staff to manage doctor workload and patient-doctor matching.
 
 ##### Doctor DashBoard
-![Desktop View](/assets/img/posts/DrBoard.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/DrBoard.png)
 - Doctor Portal : This screen is home page for doctor and he can move into the DrAppoiment screen 
 
 - DrAppoiment : In this Screen there is the table that appear the Appiment that staff assign it to the doctor
 
 ##### Patient DashBoard
-![Desktop View](/assets/img/posts/PaitentBoard.png)
+![Desktop View](MoAbdel-fattah.github.io/assets/img/posts/PaitentBoard.png)
 - Paitent Portal : This screen show the detail of appoiment that staff get it for paitent
