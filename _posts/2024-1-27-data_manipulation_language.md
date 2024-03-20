@@ -2,7 +2,7 @@
 layout: post
 title: Data Manipulation Language
 date: 2024-1-27 19:39 +0200
-categories: [Datbase,SQL]
+categories: [Database,SQL]
 tags: [sql,database]
 ---
 ## DML Process:
