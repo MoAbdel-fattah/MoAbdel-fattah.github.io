@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Manipulation Language
-date: 2024-1-27 00:00 +0000
+date: 2024-1-27 16:45 +0200
 categories: [Database,SQL]
 tags: [sql,database]
 ---
