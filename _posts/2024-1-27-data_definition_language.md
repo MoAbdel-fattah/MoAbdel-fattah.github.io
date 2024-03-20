@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Definition Language
-date: 2024-1-27 10:30 +0200
+date: 2024-1-27 00:00 +0000
 categories: [Database,SQL]
 tags: [sql,database]
 ---
