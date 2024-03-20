@@ -2,7 +2,7 @@
 layout: post
 title: General Knowledge in Database
 date: 2024-2-7 14:57 +0200
-categories: [Database]
+categories: [Database,Basics]
 tags: [database]
 ---
 ## Database concepts:

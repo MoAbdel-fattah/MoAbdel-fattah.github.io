@@ -2,7 +2,7 @@
 layout: post
 title: Entity Relationship Diagram 
 date: 2024-3-16 00:00 +0000
-categories: [Database]
+categories: [Database,Basics]
 tags: [database]
 ---
 ## Entity Relationship Modeling
