@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Structured Query Language
-date: 2024-3-23 15:40 +0200
+date: 2024-3-23 15:45 +0300
 categories: [Database,Basics]
 tags: [database]
 ---
