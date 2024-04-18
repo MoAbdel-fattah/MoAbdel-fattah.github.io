@@ -2,7 +2,7 @@
 layout: post
 title: Basic widgets
 date: 2024-4-18 00:00 +0000
-categories: [Flutter,Basics]
+categories: [Flutter,Basic]
 tags: [flutter]
 ---
 
