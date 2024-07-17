@@ -2,7 +2,7 @@
 layout: post
 title: Exploring Caesar Cipher Encryption and Decryption
 date: 2024-1-07 00:00 +0000
-categories: [Python,Cypersecurity]
+categories: [Cypersecurity]
 tags: [python,cypersecurity,cryptography]
 ---
 
