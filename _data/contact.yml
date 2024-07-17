@@ -15,7 +15,7 @@
   noblank: true
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/mohammad-abd-el-fattah-mohammad-ahmad-10638b228'                  # Fill with your Linkedin homepage
+  url:  'https://www.linkedin.com/in/mohammadabdelfattahmohammadahmad/'                  # Fill with your Linkedin homepage
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
