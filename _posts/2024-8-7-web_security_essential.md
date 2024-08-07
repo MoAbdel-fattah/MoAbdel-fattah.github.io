@@ -9,31 +9,37 @@ tags: [cybersecurity,web]
 
 - Web applications are designed to facilitate interaction between users and servers over the internet. Here’s a breakdown of their structure:
 
+
 ## 1. Presentation Layer
 - User Interface (UI): 
   - This is what users interact with directly. It includes HTML, CSS, and JavaScript to create the visual layout and user experience.
 - Client-Side Logic:
   - JavaScript frameworks and libraries (like React, Angular, or Vue.js) handle dynamic content and user interactions.
+
 ## 2. Application Layer
 - Business Logic: 
   - This layer processes user inputs, makes decisions, and performs calculations. It ensures that the application behaves as expected.
 - Server-Side Frameworks: 
   - Technologies like Node.js, Django, Ruby on Rails, and ASP.NET are used to build the server-side logic.
+
 ## 3. Data Layer
 - Database Management: 
   - This layer is responsible for storing and retrieving data. Common databases include SQL (like MySQL, PostgreSQL) and NoSQL (like MongoDB).
 - Data Access Logic: 
    - This includes the code that interacts with the database, such as SQL queries or ORM (Object-Relational Mapping) tools.
+
 ## 4. Communication Layer
 - HTTP/HTTPS Protocols: 
   - These protocols are used for communication between the client and server. HTTPS is preferred for secure communication.
 - APIs: 
   - Application Programming Interfaces (APIs) allow different parts of the application to communicate with each other and with external services.
+
 ## 5. Security Layer
 - Authentication and Authorization: 
   - Ensures that users are who they say they are (authentication) and have permission to access certain resources (authorization).
 - Data Encryption: 
   - Protects data in transit and at rest using encryption techniques.
+
 ## 6. Infrastructure Layer
 - Servers: 
   - Physical or virtual machines that host the web application.
@@ -79,7 +85,7 @@ tags: [cybersecurity,web]
 ## How Bug Bounty Hunters and Vulnerability Analysts Find Bugs in Each Layer
 - Bug bounty hunters and vulnerability analysts use various techniques and tools to identify security vulnerabilities across different layers of a web application. Here’s a breakdown of how they approach each layer and the types of bugs they might find:
 
-### 1. Presentation Layer 
+### Presentation Layer 
 - Techniques: 
   - Manual testing, automated scanning, and code review.
 - Tools: 
@@ -91,11 +97,12 @@ tags: [cybersecurity,web]
     - Inserting malicious HTML code into web pages.
   - CSS Injection: 
     - Injecting malicious CSS to alter the appearance of a web page.
-### 2. Application Layer
+    
+### Application Layer
   - Techniques: 
     - Static and dynamic analysis, fuzz testing, and manual code review.
   - Tools: 
-     - SAST tools (Static Application Security Testing
+     - SAST tools (Static Application Security Testing)
      - DAST tools (Dynamic Application Security Testing)
      - custom scripts.
   - Common Bugs:
@@ -105,7 +112,8 @@ tags: [cybersecurity,web]
       - Executing arbitrary commands on the server.
     - Authentication Bypass: 
       - Gaining unauthorized access to the application.
-### 3. Data Layer
+
+### Data Layer
  - Techniques: 
       - Database security assessment, query analysis, and configuration review.
   - Tools: 
@@ -117,7 +125,8 @@ tags: [cybersecurity,web]
      - Accessing data by manipulating references.
    - Data Leakage: 
      - Unintended exposure of sensitive data.
-### 4. Communication Layer
+
+### Communication Layer
   - Techniques: 
     - Network traffic analysis, protocol analysis, and interception.
   - Tools: 
@@ -129,7 +138,8 @@ tags: [cybersecurity,web]
       - Using unencrypted communication channels (HTTP instead of HTTPS).
     - SSL/TLS Vulnerabilities: 
       - Weak encryption algorithms or misconfigurations.
-### 5. Security Layer
+
+### Security Layer
   - Techniques: 
     - Penetration testing, security audits, and configuration review.
   - Tools: 
@@ -141,7 +151,8 @@ tags: [cybersecurity,web]
       - Users accessing resources they shouldn’t.
     - Security Misconfigurations: 
       - Default settings, unnecessary services enabled.
-### 6. Infrastructure Layer
+
+### Infrastructure Layer
    - Techniques: 
      - Network scanning, vulnerability scanning, and configuration review.
    - Tools: 
@@ -155,37 +166,54 @@ tags: [cybersecurity,web]
        - Incorrect firewall rules allowing unauthorized access.
 
 ## Short Descriptions of Each Bug
+
 #### Cross-Site Scripting (XSS): 
 - Allows attackers to inject malicious scripts into web pages viewed by other users, potentially stealing cookies or session tokens.
+
 #### HTML Injection: 
 - Inserting malicious HTML code into web pages, which can alter the page’s content or behavior.
+
 #### CSS Injection: 
 - Injecting malicious CSS to change the appearance of a web page, potentially misleading users.
+
 #### SQL Injection: 
 - Manipulating SQL queries to access or modify the database, potentially exposing or altering sensitive data.
+
 #### Command Injection: 
 - Executing arbitrary commands on the server, which can lead to full system compromise.
+
 #### Authentication Bypass: 
 - Gaining unauthorized access to the application by exploiting weaknesses in the authentication process.
+
 #### Insecure Direct Object References (IDOR): 
 - Accessing data by manipulating references, such as changing a URL parameter to access another user’s data.
+
 #### Data Leakage: 
 - Unintended exposure of sensitive data, such as through error messages or misconfigured databases.
+
 #### Man-in-the-Middle (MitM) Attacks: 
 - Intercepting and altering communication between client and server, potentially stealing sensitive information.
+
 #### Insecure Transmission: 
 - Using unencrypted communication channels, making data vulnerable to interception.
+
 #### SSL/TLS Vulnerabilities: 
 - Weak encryption algorithms or misconfigurations that can be exploited to decrypt communication.
+
 #### Weak Authentication Mechanisms: 
 - Poor password policies or lack of multi-factor authentication, making it easier for attackers to gain access.
+
 #### Authorization Flaws: 
 - Users accessing resources they shouldn’t, potentially leading to data breaches.
+
 #### Security Misconfigurations: 
 - Default settings or unnecessary services enabled, which can be exploited by attackers.
+
 #### Open Ports: 
 - Unnecessary open ports that can be exploited to gain access to the system.
+
 #### Outdated Software: 
 - Running software with known vulnerabilities, which can be exploited by attackers.
+
 #### Misconfigured Firewalls: 
 - Incorrect firewall rules allowing unauthorized access to the network.
