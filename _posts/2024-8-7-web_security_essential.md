@@ -76,10 +76,10 @@ tags: [cybersecurity,web]
 - HTTP Responses: 
   - These are the messages sent by the server in response to a client’s request. They include a status code (e.g., 200 OK, 404 Not Found) and may contain data in the body (e.g., HTML, JSON).
 
-# How Bug Bounty Hunters and Vulnerability Analysts Find Bugs in Each Layer
+## How Bug Bounty Hunters and Vulnerability Analysts Find Bugs in Each Layer
 - Bug bounty hunters and vulnerability analysts use various techniques and tools to identify security vulnerabilities across different layers of a web application. Here’s a breakdown of how they approach each layer and the types of bugs they might find:
 
-## 1. Presentation Layer 
+### 1. Presentation Layer 
 - Techniques: 
   - Manual testing, automated scanning, and code review.
 - Tools: 
@@ -91,7 +91,7 @@ tags: [cybersecurity,web]
     - Inserting malicious HTML code into web pages.
   - CSS Injection: 
     - Injecting malicious CSS to alter the appearance of a web page.
-## 2. Application Layer
+### 2. Application Layer
   - Techniques: 
     - Static and dynamic analysis, fuzz testing, and manual code review.
   - Tools: 
@@ -105,7 +105,7 @@ tags: [cybersecurity,web]
       - Executing arbitrary commands on the server.
     - Authentication Bypass: 
       - Gaining unauthorized access to the application.
-## 3. Data Layer
+### 3. Data Layer
  - Techniques: 
       - Database security assessment, query analysis, and configuration review.
   - Tools: 
@@ -117,7 +117,7 @@ tags: [cybersecurity,web]
      - Accessing data by manipulating references.
    - Data Leakage: 
      - Unintended exposure of sensitive data.
-## 4. Communication Layer
+### 4. Communication Layer
   - Techniques: 
     - Network traffic analysis, protocol analysis, and interception.
   - Tools: 
@@ -129,7 +129,7 @@ tags: [cybersecurity,web]
       - Using unencrypted communication channels (HTTP instead of HTTPS).
     - SSL/TLS Vulnerabilities: 
       - Weak encryption algorithms or misconfigurations.
-## 5. Security Layer
+### 5. Security Layer
   - Techniques: 
     - Penetration testing, security audits, and configuration review.
   - Tools: 
@@ -141,7 +141,7 @@ tags: [cybersecurity,web]
       - Users accessing resources they shouldn’t.
     - Security Misconfigurations: 
       - Default settings, unnecessary services enabled.
-## 6. Infrastructure Layer
+### 6. Infrastructure Layer
    - Techniques: 
      - Network scanning, vulnerability scanning, and configuration review.
    - Tools: 
