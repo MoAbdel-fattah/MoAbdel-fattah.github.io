@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Report Of Finding We Innovate Final Exam
-date: 2024-9-09 00:00 +0000
+date: 2024-9-09 18:00 +0200
 categories: [Cybersecurity,Reports]
 tags: [cybersecurity,web,network,pentest]
 ---
